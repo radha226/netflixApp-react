@@ -1,12 +1,15 @@
 // import logo from './logo.svg';
 // import './App.css';
+import  {Header,subheader} from './components/Header';
+import {CardComponent } from './components/Card';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">   
-      <h1>hello this is header</h1>    
-      </header>
+    <div className="App"> 
+      <Header />
+      {subheader()}
+      <CardComponent />
     </div>
   );
 }
